@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+rl-venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE und Editor Dateien
+.vscode/
+.idea/
+*.iml
+
+# Logs und temporäre Dateien
+*.log
+*.tmp
+*.bak
+
+# MacOS System Dateien
+.DS_Store
+
+# Python spezifische Cache Dateien
+*.pyc
+*.pyo
+
+# Dateien der Visualisierung (z.B. gespeicherte Modelle, etc.)
+q_table.npy
+
+# Sonstige
+*.swp

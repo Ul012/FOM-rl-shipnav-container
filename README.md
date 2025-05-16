@@ -28,16 +28,16 @@ Entwicklung eines Q-Learning-Agenten, der lernt:
 
 ## Projektstruktur
 
-ship-navigation-container-rl/
-├── src/
-│ ├── navigation/
-│ │ ├── environment/
-│ │ │ └── container_environment.py ← Umgebung mit variablen Pick-Up/Drop-Off und festen Hindernissen
-│ │ ├── train.py ← Trainingsskript mit Q-Learning und Epsilon-Decay
-│ │ ├── run_policy.py ← Policy-Ausführung mit Visualisierung
-│ │ └── visualize_policy.py ← Policy-Visualisierung über ganze Karten
-├── docs/
-│ └── index.md ← Projektdokumentation (MkDocs)
-├── requirements.txt ← Python-Abhängigkeiten
-├── README.md ← Dieses Dokument
-└── .gitignore
+# ship-navigation-container-rl/
+# ├── src/
+# │ ├── navigation/
+# │ │ ├── environment/
+# │ │ │ └── container_environment.py ← Umgebung mit variablen Pick-Up/Drop-Off und festen Hindernissen
+# │ │ ├── train.py ← Trainingsskript mit Q-Learning und Epsilon-Decay
+# │ │ ├── run_policy.py ← Policy-Ausführung mit Visualisierung
+# │ │ └── visualize_policy.py ← Policy-Visualisierung über ganze Karten
+# ├── docs/
+# │ └── index.md ← Projektdokumentation (MkDocs)
+# ├── requirements.txt ← Python-Abhängigkeiten
+# ├── README.md ← Dieses Dokument
+# └── .gitignore
